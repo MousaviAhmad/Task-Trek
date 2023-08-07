@@ -1,0 +1,86 @@
+/* The following lines import styles from Tailwind CSS. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Custom CSS styles for the application
+
+/* Custom background color class for elements with a custom color. */
+.bg-custom-color {
+    background-color: #C4DFDF;
+}
+
+/* Styling for the header with custom color. */
+.header {
+    color: #16213E; /* You can adjust the color as per your design. */
+}
+
+/* Styling for the todo text with bold font-weight and custom color. */
+.todo-txt {
+    font-weight: bold;
+    color: #16213E;
+}
+
+/* Styling for the modal dialog used for delete confirmation. */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the content inside the modal dialog. */
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+/* Styling for the close button in the modal dialog. */
+.modal-close {
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Styling to hide the modal when it's not displayed. */
+.modal[style] {
+    display: none;
+}
+
+
+
+  /* Custom styling for the due date container */
+  .due-date-container {
+    display: inline-block;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    padding: 4px 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+
+  /* Styling for the 'Due:' label */
+  .due-date-label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #6b7280;
+  }
+
+  /* Styling for the actual due date */
+  .due-date {
+    font-size: 14px;
+    color: #111827;
+  }
+
+ 

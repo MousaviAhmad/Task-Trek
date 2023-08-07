@@ -1,0 +1,38 @@
+[
+    {
+        "id": "64bdc1d521d90",
+        "task": "Go to the post office to send a letter.",
+        "status": 0,
+        "dueDate": "2023-08-01"
+    },
+    {
+        "id": "64bdc1e7a13fe",
+        "task": "Complete the presentation slides for the Monday meeting.",
+        "status": 0,
+        "dueDate": "2023-08-01"
+    },
+    {
+        "id": "64d0c69332a83",
+        "task": "Check emails and respond to urgent ones.",
+        "status": 0,
+        "dueDate": "2023-08-07"
+    },
+    {
+        "id": "64d0c6a5d6dd5",
+        "task": "Schedule a meeting with the marketing team.",
+        "status": 0,
+        "dueDate": "2023-08-25"
+    },
+    {
+        "id": "64d0c6b4abda6",
+        "task": "Review the quarterly financial report.",
+        "status": 0,
+        "dueDate": "2023-08-13"
+    },
+    {
+        "id": "64d0c6c3405e1",
+        "task": "Write a progress report for the ongoing project.",
+        "status": 0,
+        "dueDate": "2023-08-23"
+    }
+]
